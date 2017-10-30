@@ -7,6 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AllSubsComponent {
   title="All Subs";
-  constructor() {}
+
 
 }
