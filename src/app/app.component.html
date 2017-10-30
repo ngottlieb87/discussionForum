@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="">All Subs</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink="Wood-Working">Wood Working</a></li>
+      <li><a routerLink="Cooking">Cooking</a></li>
+      <li><a routerLink="Hiking">Hiking</a></li>
+      <li><a routerLink="Gaming">Gaming</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>{{title}}</h1>
+  <router-outlet></router-outlet>
+</div>

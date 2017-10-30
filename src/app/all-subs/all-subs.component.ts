@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./all-subs.component.css']
 })
 export class AllSubsComponent {
-
+  title="All Subs";
   constructor() {}
 
 }

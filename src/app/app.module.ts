@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AllSubsComponent } from './all-subs/all-subs.component';
+import { routing } from './app.routing';
 import { GamingComponent } from './gaming/gaming.component';
 import { WoodWorkComponent } from './wood-work/wood-work.component';
 import { CookingComponent } from './cooking/cooking.component';
 import { HikingComponent } from './hiking/hiking.component';
+
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { HikingComponent } from './hiking/hiking.component';
     GamingComponent,
     WoodWorkComponent,
     CookingComponent,
-    HikingComponent
+    HikingComponent,
+
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
